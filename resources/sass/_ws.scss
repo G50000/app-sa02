@@ -1,0 +1,21 @@
+body{
+    background: var(--ws-bg-color);
+}
+
+h2{
+    color: var(--ws-border-color);
+}
+
+.bg-wscolor{
+    background-color: var(--ws-bg-color);
+
+}
+
+.btn-aviso{
+    background-color: var(--ws-btn-aviso-bg-color)
+}
+
+.btn-aviso:hover{
+    background-color: var( --ws-btn-aviso-bg-color);
+    color: var(--ws-fg-color);
+}
