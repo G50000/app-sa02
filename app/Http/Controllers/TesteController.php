@@ -65,7 +65,7 @@ return view('teste', [
      */
     public function update(Request $request, string $id)
     {
-        //
+        dd($request);
     }
 
     /**
@@ -73,6 +73,7 @@ return view('teste', [
      */
     public function destroy(string $id)
     {
-        //
+        $disciplina = \App\Models\Disciplina::find($id);
+        $disciplina->Delete();
     }
 }

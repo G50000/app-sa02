@@ -19,7 +19,7 @@
           <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Inicio</a></li>
           <li><a class="dropdown-item" href="{{ route('teste') }}">Página de teste</a></li>
-            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="{{ route('disciplina.index')}}">Disciplinas</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
